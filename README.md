@@ -1,5 +1,5 @@
 # Security-Analysis
-Wireshark
+
 Download Wireshark version 4.04, I have a Mac, so I downloaded macOS Intel 64-bit.dmg. I did try macOS Arm 64-bit.dmg but it did not work, so be sure to download the correct version for your device.
 
 Packet Capture: 

@@ -29,3 +29,34 @@ Filtering Packets:
 <img width="319" alt="Screenshot 2023-03-23 at 00 32 21" src="https://user-images.githubusercontent.com/105232776/227068844-6bd5bd74-0bc6-4175-9707-ca28589a32f6.png">
 <img width="313" alt="Screenshot 2023-03-23 at 00 35 12" src="https://user-images.githubusercontent.com/105232776/227069127-8b440d0d-9a68-4250-8e71-97d6ba9e96e2.png">
 <img width="916" alt="Screenshot 2023-03-23 at 00 39 33" src="https://user-images.githubusercontent.com/105232776/227069629-6782336d-2309-4de0-8d7e-c3e3e61f57ad.png">
+
+
+
+
+Nmap - Network Scanning
+I tried to install Nmap on Ubuntu however I did not have the administrator privileges to run the $ sudo command. I ended up deleting my Ubuntu VM on VirtualBox and redownloading it to give me administrator privileges. However, this still did not work. I had to type into Terminal
+1)	 $ su -i 
+
+Which then opened the root file and I typed this in: 
+
+2)	# usermod -aG sudo (username)
+
+Type in your username without brackets!
+
+3)	# reboot
+4)	$ sudo -i
+This finally gave me user privileges to install Nmap by running this command
+
+$ sudo apt install nmap
+
+Terminal will prompt you for password then begin downloading Nmap
+
+<img width="699" alt="Screenshot 2023-03-31 at 09 59 27" src="https://user-images.githubusercontent.com/105232776/229292018-496aa2c6-faf3-4b9d-b242-351b13432f70.png">
+
+<img width="922" alt="Screenshot 2023-03-31 at 09 59 14" src="https://user-images.githubusercontent.com/105232776/229292026-4ab51221-7cff-44fb-8b36-2d7d9b1cb0a2.png">
+
+<img width="697" alt="Screenshot 2023-03-31 at 10 00 01" src="https://user-images.githubusercontent.com/105232776/229292043-378fa637-ba57-41ca-87c3-09395bf0dae0.png">
+
+
+
+

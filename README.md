@@ -30,7 +30,9 @@ Filtering Packets:
 <img width="313" alt="Screenshot 2023-03-23 at 00 35 12" src="https://user-images.githubusercontent.com/105232776/227069127-8b440d0d-9a68-4250-8e71-97d6ba9e96e2.png">
 <img width="916" alt="Screenshot 2023-03-23 at 00 39 33" src="https://user-images.githubusercontent.com/105232776/227069629-6782336d-2309-4de0-8d7e-c3e3e61f57ad.png">
 
-Nmap - Network Scanning
+
+
+Nmap - Network Mapper
 
 
 I tried to install Nmap on Ubuntu however I did not have the administrator privileges to run the $ sudo command. I ended up deleting my Ubuntu VM on VirtualBox and redownloading it to give me administrator privileges. However, this still did not work. I had to type into Terminal
@@ -43,15 +45,18 @@ Which then opened the root file and I typed this in:
 Type in your username without brackets!
 
 3.	# reboot
-4.	$ sudo -i
+4.	4)	$ sudo -i
+
 This finally gave me user privileges to install Nmap by running this command
 
 $ sudo apt install nmap
 
 Terminal will prompt you for password then begin downloading Nmap
 
-<img width="699" alt="Screenshot 2023-03-31 at 09 59 27" src="https://user-images.<img width="922" alt="Screenshot 2023-03-31 at 09 59 14" src="https://user-images.githubus<img width="697" alt="Screenshot 2023-03-31 at 10 00 01" src="https://user-images.githubusercontent.com/105232776/229934559-e8696c4b-5375-458c-be5b-0fd99b4773b2.png">
-ercontent.com/105232776/229934541-c18be177-cad4-4f35-b30e-d571c2172765.png">
-githubusercontent.com/105232776/229934527-6e1caa5d-7cfc-4927-8ca1-b87dda04ed41.png">
+<img width="699" alt="Screenshot 2023-03-31 at 09 59 27" src="https://user-images.githubusercontent.com/105232776/229934755-0356f730-7fbf-429f-a260-431433d99566.png">
 
 
+<img width="922" alt="Screenshot 2023-03-31 at 09 59 14" src="https://user-images.githubusercontent.com/105232776/229934802-506c4748-a660-495b-8152-0885523074f8.png">
+
+
+<img width="697" alt="Screenshot 2023-03-31 at 10 00 01" src="https://user-images.githubusercontent.com/105232776/229934827-037eee09-bfc6-4249-9f5a-d0f3ea518935.png">

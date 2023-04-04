@@ -40,12 +40,12 @@ I tried to install Nmap on Ubuntu however I did not have the administrator privi
 
 Which then opened the root file and I typed this in: 
 
-2.	# usermod -aG sudo (username)
+2.	#usermod -aG sudo (username)
 
 Type in your username without brackets!
 
-3.	# reboot
-4.	4)	$ sudo -i
+3.	#reboot
+4.	$ sudo -i
 
 This finally gave me user privileges to install Nmap by running this command
 
